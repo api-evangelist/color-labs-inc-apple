@@ -1,24 +1,65 @@
 aid: color-labs-inc-apple
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/color-labs-inc-apple.png
 name: Color Labs Inc. (Apple)
-description: 'Color Labs Inc. (Apple) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Color Labs Inc. was a Palo Alto, California social photo-sharing startup
+  founded in 2011 by Bill Nguyen and Peter Pham. Its Color mobile app let people photograph
+  and browse photos taken nearby, grouping content by proximity and social graph. The
+  company raised roughly $41 million before launch — $25 million from Sequoia Capital,
+  $9 million from Bain Capital Ventures, and $7 million in venture debt from Silicon
+  Valley Bank — and reportedly declined a $200 million acquisition offer from Google.
+  After a March 2011 launch that drew about a million downloads but fell under 100,000
+  active users by September 2011, the board voted in October 2012 to wind the company
+  down and the service closed at the end of that year. Apple then acqui-hired the remaining
+  engineering team in a talent acquisition reported at roughly $2–7 million. Color Labs
+  never shipped a public developer API, SDK, or developer portal, and it has had no live
+  web or API surface since 2012. Its former domain, color.com, is today operated by the
+  unrelated Color Health, Inc. This profile is retained as a historical record of a Bain
+  Capital Ventures portfolio company; there is no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/color-labs-inc-apple/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bain-capital-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-defunct-date: '2012-12-31'
+x-acquired-by: Apple
+x-acquisition-type: acqui-hire
+x-domain-note: 'color.com resolves to Color Health, Inc. (unrelated); colorlabs.com resolves
+  to ORLY Color Labs (unrelated). No successor domain carries the Color Labs Inc. surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Commerce
+- Defunct
+- Acquired
+- Social
+- Photo Sharing
+- Mobile
+- Consumer
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
